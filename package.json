@@ -1,13 +1,13 @@
 {
   "name": "serverless-yaas-api",
   "version": "0.0.1",
-  "description": "A Serverless Project and its Serverless Plugin dependencies.",
-  "author": "me",
+  "description": "Backend for api.yaas.me",
+  "author": "Steve Huff",
   "license": "MIT",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git://github.com/"
+    "url": "https://github.com/hakamadare/serverless-yaas-api.git"
   },
   "dependencies": {}
 }
