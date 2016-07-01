@@ -11,6 +11,13 @@
   "custom": {
     "excludePatterns": []
   },
+  "swaggerExport": {
+    "tags": [
+      "public"
+    ],
+    "summary": "yes",
+    "description": "serve a yes"
+  },
   "endpoints": [
     {
       "path": "yes",

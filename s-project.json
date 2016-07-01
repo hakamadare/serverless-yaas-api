@@ -4,7 +4,14 @@
     "cors": {
       "allowOrigin": "*",
       "allowHeaders": ["Content-Type", "X-Amz-Date", "Authorization", "X-Api-Key"]
-  }
+    }
+  },
+  "swaggerExport": {
+    "info": {
+      "title": "YaaS",
+      "description": "Yes As A Service"
+    },
+    "host": "api.yaas.me"
   },
   "plugins": [
     "serverless-cors-plugin",
