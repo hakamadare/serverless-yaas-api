@@ -9,5 +9,8 @@
     "type": "git",
     "url": "https://github.com/hakamadare/serverless-yaas-api.git"
   },
-  "dependencies": {}
+  "dependencies": {
+    "serverless-cors-plugin": "^0.4.1",
+    "serverless-plugin-swagger-export": "^0.5.4"
+  }
 }
