@@ -11,6 +11,12 @@
   },
   "dependencies": {
     "serverless-cors-plugin": "^0.4.1",
-    "serverless-plugin-swagger-export": "^0.5.4"
-  }
+    "serverless-plugin-swagger-export": "^0.5.4",
+    "snyk": "^1.319.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
